@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 7fd64620e4a8d3945a674c695acf709b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4825907593407588540
+    second: ship_rework-misc_0_0
+  - first:
+      213: -8840096534806562776
+    second: ship_rework-misc_0_1
+  - first:
+      213: -3940212859033331069
+    second: ship_rework-misc_0_2
+  - first:
+      213: 5235042945313096228
+    second: ship_rework-misc_0_3
+  - first:
+      213: 1561655706979596856
+    second: ship_rework-misc_0_4
+  - first:
+      213: -2759710929061519502
+    second: ship_rework-misc_0_5
+  - first:
+      213: 6755833969415842339
+    second: ship_rework-misc_0_6
+  - first:
+      213: -5005043028750622678
+    second: ship_rework-misc_0_7
+  - first:
+      213: 5011105540136680076
+    second: ship_rework-misc_0_8
+  - first:
+      213: -15047810595652786
+    second: ship_rework-misc_0_9
+  - first:
+      213: 8793670315976186683
+    second: ship_rework-misc_0_10
+  - first:
+      213: -5174076392650886833
+    second: ship_rework-misc_0_11
+  - first:
+      213: -7099395073074555453
+    second: ship_rework-misc_0_12
+  - first:
+      213: 5398182867706978321
+    second: ship_rework-misc_0_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ship_rework-misc_0_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 293
+        width: 95
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4479410dc9ee60db0800000000000000
+      internalID: -4825907593407588540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ship_rework-misc_0_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 321
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82871b6d90ba15580800000000000000
+      internalID: -8840096534806562776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ship_rework-misc_0_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 291
+        width: 32
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a54e5e74d8159c0800000000000000
+      internalID: -3940212859033331069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ship_rework-misc_0_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 292
+        width: 7
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4224d4382db96a840800000000000000
+      internalID: 5235042945313096228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ship_rework-misc_0_4
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 292
+        width: 71
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83afafb679d1ca510800000000000000
+      internalID: 1561655706979596856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ship_rework-misc_0_5
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 269
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f5686188983b9d0800000000000000
+      internalID: -2759710929061519502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ship_rework-misc_0_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 133
+        width: 194
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a6c84833b81cd50800000000000000
+      internalID: 6755833969415842339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ship_rework-misc_0_7
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 198
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2026c912e38a8ab0800000000000000
+      internalID: -5005043028750622678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ship_rework-misc_0_8
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 197
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ab6d350f50b8540800000000000000
+      internalID: 5011105540136680076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ship_rework-misc_0_9
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 196
+        width: 12
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b7cc2981a8acff0800000000000000
+      internalID: -15047810595652786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ship_rework-misc_0_10
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 133
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b58afbf84690a70800000000000000
+      internalID: 8793670315976186683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ship_rework-misc_0_11
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 133
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f413f4f2fecf138b0800000000000000
+      internalID: -5174076392650886833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ship_rework-misc_0_12
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 132
+        width: 12
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c59b359bc1e97d90800000000000000
+      internalID: -7099395073074555453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ship_rework-misc_0_13
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 5
+        width: 194
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1102646a7b23aea40800000000000000
+      internalID: 5398182867706978321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b9a43eff3d895644a884c95ce0353496
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ship_rework-misc_0_0: -4825907593407588540
+      ship_rework-misc_0_1: -8840096534806562776
+      ship_rework-misc_0_10: 8793670315976186683
+      ship_rework-misc_0_11: -5174076392650886833
+      ship_rework-misc_0_12: -7099395073074555453
+      ship_rework-misc_0_13: 5398182867706978321
+      ship_rework-misc_0_2: -3940212859033331069
+      ship_rework-misc_0_3: 5235042945313096228
+      ship_rework-misc_0_4: 1561655706979596856
+      ship_rework-misc_0_5: -2759710929061519502
+      ship_rework-misc_0_6: 6755833969415842339
+      ship_rework-misc_0_7: -5005043028750622678
+      ship_rework-misc_0_8: 5011105540136680076
+      ship_rework-misc_0_9: -15047810595652786
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
