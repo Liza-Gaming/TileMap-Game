@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class PickaxeEffect : MonoBehaviour
 {
     private bool canCreateTrail = false;
     public GameObject groundTilePrefab; // Assign a prefab for the ground trail

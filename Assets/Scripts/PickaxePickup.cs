@@ -16,7 +16,7 @@ public class PickaxePickup : MonoBehaviour
         if (other.tag == playerTag && enabled)
         {
             // Assuming your Player script handles state changes
-            Player playerScript = player.GetComponent<Player>();
+            PickaxeEffect playerScript = player.GetComponent<PickaxeEffect>();
             if (playerScript != null)
             {
                 playerScript.EnableElevationMovement();

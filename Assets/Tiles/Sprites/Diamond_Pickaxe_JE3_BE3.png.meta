@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Diamond_Pickaxe_JE3_BE3_0: -8453244747136490063
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

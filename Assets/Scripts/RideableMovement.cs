@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-public class BoatMovement : MonoBehaviour
+public class RideableMovement : MonoBehaviour
 {
     //    public float speed = 5f;
 
