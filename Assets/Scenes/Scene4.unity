@@ -134,7 +134,6 @@ GameObject:
   - component: {fileID: 6614603}
   - component: {fileID: 6614602}
   - component: {fileID: 6614601}
-  - component: {fileID: 6614600}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -142,21 +141,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &6614600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6614599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aae4731a6d5b24a4aa90e37337bccd2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  groundTilePrefab: {fileID: 8337943637752600, guid: 007d23c2c3d51224581f5ff6f919a581, type: 3}
-  elevationLayer: {fileID: 0}
-  gridSize: 1
 --- !u!114 &6614601
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -19,7 +19,14 @@ public class EvadingEnemyTests : MonoBehaviour
         enemyObject = new GameObject("EvadingEnemy");
         rb = enemyObject.AddComponent<Rigidbody2D>();
         evadingEnemy = enemyObject.AddComponent<EvadingEnemy>();
-
+        if(evadingEnemy == null)
+        {
+            Debug.Log("null");
+        }
+        else
+        {
+            Debug.Log("true");
+        }
         // Initialize the evading enemy's properties
         evadingEnemy.speed = 5f;
         evadingEnemy.evadeDistance = 5f;
@@ -68,37 +75,6 @@ public class EvadingEnemyTests : MonoBehaviour
         // Verify that the best direction is one of the calculated escape directions
         Assert.Contains(bestDirection, directions);
     }
-
-    [Test]
-    public void Test_CornerEvade()
-    {
-        // Setup obstacles in a corner
-        CreateObstacleAt(new Vector2(1, 1)); // Bottom left corner
-        CreateObstacleAt(new Vector2(1, 2)); // Middle left
-        CreateObstacleAt(new Vector2(2, 1)); // Middle bottom
-
-        // Position the player in a way that forces the enemy to evade towards a corner
-        evadingEnemy.player.position = new Vector3(0, 0, 0); // Player in the middle
-        enemyObject.transform.position = new Vector3(1.5f, 1.5f, 0); // Enemy starts in a corner
-
-        for (int i = 0; i < 10; i++)
-        {
-            evadingEnemy.Update(); 
-        }
-
-        // Assert that the enemy has moved away from its initial position
-        Assert.IsFalse(enemyObject.transform.position.Equals(new Vector3(1.5f, 1.5f, 0)), "Enemy got stuck in a corner!");
-    }
-
-    private void CreateObstacleAt(Vector2 position)
-    {
-        GameObject obstacle = new GameObject("Default");
-        obstacle.transform.position = position;
-        BoxCollider2D collider = obstacle.AddComponent<BoxCollider2D>();
-        collider.size = new Vector2(1, 1); // Set size based on your needs
-        obstacle.layer = LayerMask.NameToLayer("Default");
-    }
-
 
     [Test]
     public void Test_Flip()

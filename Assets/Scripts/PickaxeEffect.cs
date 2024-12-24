@@ -5,8 +5,6 @@ public class PickaxeEffect : MonoBehaviour
     private bool canCreateTrail = false;
     public GameObject groundTilePrefab; // Assign a prefab for the ground trail
     public Transform elevationLayer; // Assign the elevation layer transform
-    public float gridSize = 1f; // Define the size of the grid
-
     public void EnableElevationMovement()
     {
         canCreateTrail = true;
@@ -40,15 +38,15 @@ public class PickaxeEffect : MonoBehaviour
 
     Vector3 GetSnappedPositionToGrid(Vector3 position)
     {
-        float snapX = Mathf.Round(position.x / gridSize) * gridSize;
-        float snapY = Mathf.Round(position.y / gridSize) * gridSize;
+        float snapX = Mathf.Round(position.x);
+        float snapY = Mathf.Round(position.y);
         return new Vector3(snapX, snapY, position.z);
     }
 
     bool TileExistsAt(Vector3 position)
     {
         // This method checks if a tile already exists at the position to avoid duplicate tiles
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(position, gridSize * 0.1f);
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(position, 0.1f);
         foreach (var collider in colliders)
         {
             if (collider.CompareTag("GroundTile"))
