@@ -1631,7 +1631,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groundTilePrefab: {fileID: 8337943637752600, guid: 007d23c2c3d51224581f5ff6f919a581, type: 3}
   elevationLayer: {fileID: 1631590108}
-  gridSize: 1
 --- !u!1 &1523311657
 GameObject:
   m_ObjectHideFlags: 0
@@ -1660,7 +1659,7 @@ Transform:
   m_GameObject: {fileID: 1523311657}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.43, y: 0, z: 0}
+  m_LocalPosition: {x: -0.43, y: -0.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3126,7 +3125,7 @@ Transform:
   m_GameObject: {fileID: 1631590107}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.47, y: 0, z: 0}
+  m_LocalPosition: {x: -0.47, y: -0.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
