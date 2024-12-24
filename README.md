@@ -18,9 +18,9 @@ You can ride a boat to cross the sea and a sheep to cross the eleveations.
 ![Screenshot 2024-12-24 151151](https://github.com/user-attachments/assets/8ac43d94-34b6-4fd2-a0f2-872f8d403156)
 
 
-You can collect a pickaxe to [Pickaxe effect](https://github.com/Liza-Gaming/TileMap-Game/blob/main/Assets/Scripts/PickaxeEffect.cs)
+You can collect a pickaxe. to [Pickaxe effect](https://github.com/Liza-Gaming/TileMap-Game/blob/main/Assets/Scripts/PickaxeEffect.cs)
 
-![image](https://github.com/user-attachments/assets/ada9f238-6c22-41d4-a3b5-97117cbb2a33)
+![image](https://github.com/user-attachments/assets/3609999d-7393-4c27-9e28-755a38a790a0)
 
 Move right to switch between scenes.
 
