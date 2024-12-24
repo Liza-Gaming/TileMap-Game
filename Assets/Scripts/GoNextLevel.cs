@@ -15,7 +15,7 @@ public class GoNextLevel : MonoBehaviour
     {
         if (other.tag == next && enabled)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             Destroy(other.gameObject);
         }
     }

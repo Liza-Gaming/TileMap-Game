@@ -51,7 +51,7 @@ public class PickaxeEffect : MonoBehaviour
         Collider2D[] colliders = Physics2D.OverlapCircleAll(position, gridSize * 0.1f);
         foreach (var collider in colliders)
         {
-            if (collider.CompareTag("GroundTile")) 
+            if (collider.CompareTag("GroundTile"))
             {
                 return true;
             }
