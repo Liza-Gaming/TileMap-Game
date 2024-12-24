@@ -1,13 +1,17 @@
 using NUnit.Framework;
 using UnityEngine;
 
-public class EvadingEnemyTests
+public class EvadingEnemyTests : MonoBehaviour 
 {
     private GameObject enemyObject;
     private EvadingEnemy evadingEnemy;
     private GameObject playerObject;
 
     private Rigidbody2D rb;
+    void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
 
     [SetUp]
     public void Setup()
@@ -77,10 +81,9 @@ public class EvadingEnemyTests
         evadingEnemy.player.position = new Vector3(0, 0, 0); // Player in the middle
         enemyObject.transform.position = new Vector3(1.5f, 1.5f, 0); // Enemy starts in a corner
 
-        // Simulate several frames to allow the enemy to attempt to evade
         for (int i = 0; i < 10; i++)
         {
-            evadingEnemy.Update(); // Call Update manually
+            evadingEnemy.Update(); 
         }
 
         // Assert that the enemy has moved away from its initial position
@@ -93,7 +96,6 @@ public class EvadingEnemyTests
         obstacle.transform.position = position;
         BoxCollider2D collider = obstacle.AddComponent<BoxCollider2D>();
         collider.size = new Vector2(1, 1); // Set size based on your needs
-        // Make sure the obstacle is part of the layer you've designated for obstacles
         obstacle.layer = LayerMask.NameToLayer("Default");
     }
 
@@ -102,8 +104,6 @@ public class EvadingEnemyTests
     public void Test_Flip()
     {
         Assert.IsTrue(evadingEnemy.facingRight);
-
-        // Call Flip method and check direction
         evadingEnemy.Flip();
         Assert.IsFalse(evadingEnemy.facingRight);
     }

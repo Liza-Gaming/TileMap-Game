@@ -703,9 +703,10 @@ MonoBehaviour:
   player: {fileID: 1945579901}
   speed: 2
   evadeDistance: 1
+  safeDistance: 5
   obstacleLayer:
     serializedVersion: 2
-    m_Bits: 272
+    m_Bits: 273
   facingRight: 1
   rb: {fileID: 117072321}
 --- !u!1 &183098063
@@ -1826,9 +1827,10 @@ MonoBehaviour:
   player: {fileID: 1945579901}
   speed: 2
   evadeDistance: 1
+  safeDistance: 5
   obstacleLayer:
     serializedVersion: 2
-    m_Bits: 272
+    m_Bits: 273
   facingRight: 1
   rb: {fileID: 334751376}
 --- !u!1 &429554486
@@ -4584,9 +4586,10 @@ MonoBehaviour:
   player: {fileID: 1945579901}
   speed: 2
   evadeDistance: 1
+  safeDistance: 5
   obstacleLayer:
     serializedVersion: 2
-    m_Bits: 272
+    m_Bits: 273
   facingRight: 1
   rb: {fileID: 1100095808}
 --- !u!1 &1189016258
@@ -5631,9 +5634,10 @@ MonoBehaviour:
   player: {fileID: 1945579901}
   speed: 2
   evadeDistance: 1
+  safeDistance: 5
   obstacleLayer:
     serializedVersion: 2
-    m_Bits: 272
+    m_Bits: 273
   facingRight: 1
   rb: {fileID: 1930316685}
 --- !u!1 &1931870860

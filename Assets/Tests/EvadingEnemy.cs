@@ -15,10 +15,6 @@ public class EvadingEnemy : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        if (rb == null)
-        {
-            Debug.LogError("Rigidbody2D is not assigned!");
-        }
     }
 
     public void Update()
